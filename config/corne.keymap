@@ -109,7 +109,7 @@
             bindings = <
 &trans  &kp Q          &kp W         &kp E        &kp R        &kp T                          &kp Y      &hml LWIN U           &hmr LALT I  &hmr LCTRL O  &hmr LSHIFT P  &trans
 &trans  &hml LSHIFT A  &hml LCTRL S  &hml LALT D  &hml LWIN F  &kp G                          &kp H      &kp J                 &kp K        &kp L         &kp SEMI       &trans
-&trans  &kp Z          &kp X         &kp C        &kp V        &kp B                          &kp N      &kp M                 &kp COMMA    &kp DOT       &kp FSLH       &trans
+&trans  &kp Z          &kp X         &kp C        &kp V        &kp B                          &kp N      &kp M                 &kp COMMA    &kp DOT       &kp SQT        &trans
                                      &kp TAB      &mo 1        &thumb_modifier LWIN RETURN    &kp SPACE  &thumb_layer 2 SPACE  &kp ESCAPE
             >;
         };
