@@ -14,28 +14,28 @@
 
         escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <19 20>;
+            key-positions = <16 17>;
             timeout-ms = <50>;
             layers = <0>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <2 3>;
+            key-positions = <1 2>;
             timeout-ms = <50>;
             layers = <0>;
         };
 
         tmux_leader {
             bindings = <&kp LC(A)>;
-            key-positions = <14 15>;
+            key-positions = <11 12>;
             timeout-ms = <50>;
             layers = <0>;
         };
 
         bt_reset {
             bindings = <&bt BT_CLR>;
-            key-positions = <25 26 34 33>;
+            key-positions = <20 21 28 29>;
             require-prior-idle-ms = <200>;
             timeout-ms = <50>;
             layers = <0>;
