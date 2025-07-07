@@ -112,6 +112,8 @@
 &trans  &kp Z          &kp X         &kp C        &kp V        &kp B                          &kp N      &kp M                 &kp COMMA    &kp DOT       &kp SQT        &trans
                                      &kp TAB      &mo 1        &thumb_modifier LWIN RETURN    &kp SPACE  &thumb_layer 2 SPACE  &kp ESCAPE
             >;
+
+            label = "base";
         };
 
         num {
@@ -127,6 +129,8 @@
 &trans  &kp GREATER_THAN  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans    &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp QUESTION   &trans
                                   &trans                &trans                 &trans    &trans  &mo 3         &trans
             >;
+
+            label = "num";
         };
 
         nav {
@@ -142,6 +146,8 @@
 &trans  &kp GREATER_THAN  &trans  &kp PLUS        &kp QUESTION  &kp NON_US_BACKSLASH    &kp LA(N5)        &kp LA(NUMBER_6)  &kp PIPE          &kp NON_US_BACKSLASH  &kp TILDE  &trans
                                   &trans          &mo 3         &trans                  &trans            &trans            &trans
             >;
+
+            label = "nav";
         };
 
         opt {
@@ -151,6 +157,8 @@
 &trans  &trans        &trans        &trans        &trans        &trans          &trans          &trans          &trans        &trans          &trans    &trans
                                     &trans        &trans        &trans          &trans          &trans          &trans
             >;
+
+            label = "opt";
         };
     };
 };
