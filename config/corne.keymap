@@ -15,21 +15,30 @@
         escape {
             bindings = <&kp ESCAPE>;
             key-positions = <19 20>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <2 3>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
 
         tmux_leader {
             bindings = <&kp LC(A)>;
             key-positions = <14 15>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
 
         bt_reset {
             bindings = <&bt BT_CLR>;
             key-positions = <25 26 34 33>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
     };
 
