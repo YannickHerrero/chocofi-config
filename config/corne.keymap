@@ -105,10 +105,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q          &kp W         &kp E        &kp R        &kp T                          &kp Y      &hmr LWIN U           &hmr LALT I  &hmr LCTRL O  &hmr LSHIFT P  &trans
-&trans  &hml LSHIFT A  &hml LCTRL S  &hml LALT D  &hml LWIN F  &kp G                          &kp H      &kp J                 &kp K        &kp L         &kp SEMI       &trans
-&trans  &kp Z          &kp X         &kp C        &kp V        &kp B                          &kp N      &kp M                 &kp COMMA    &kp DOT       &kp SQT        &trans
-                                     &kp SPACE    &mo 1        &thumb_modifier LWIN RETURN    &kp SPACE  &thumb_layer 2 SPACE  &kp LSHFT
+&trans  &kp Q          &kp W         &kp E        &kp R        &kp T                          &kp Y      &hmr LWIN U           &hmr LALT I         &hmr LCTRL O  &hmr LSHIFT P  &trans
+&trans  &hml LSHIFT A  &hml LCTRL S  &hml LALT D  &hml LWIN F  &kp G                          &kp H      &kp J                 &kp K               &kp L         &kp SEMI       &trans
+&trans  &kp Z          &kp X         &kp C        &kp V        &kp B                          &kp N      &kp M                 &kp COMMA           &kp DOT       &kp SQT        &trans
+                                     &kp SPACE    &mo 1        &thumb_modifier LWIN RETURN    &kp SPACE  &thumb_layer 2 SPACE  &thumb_layer 4 F18
             >;
 
             label = "base";
@@ -150,13 +150,24 @@
 
         opt {
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans          &kp CAPSLOCK    &trans        &kp UNDERSCORE  &kp PLUS  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans          &trans          &trans        &kp UNDERSCORE  &kp PLUS  &trans
 &trans  &trans        &trans        &trans        &trans        &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT       &trans    &trans
 &trans  &trans        &trans        &trans        &trans        &trans          &trans          &trans          &trans        &trans          &trans    &trans
                                     &trans        &trans        &trans          &trans          &trans          &trans
             >;
 
             label = "opt";
+        };
+
+        util {
+            bindings = <
+&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5     &kp LEFT              &kp RIGHT    &trans             &trans         &trans            &trans
+&trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10    &kp LG(LS(NUMBER_4))  &kp K_COPY   &kp C_VOLUME_UP    &kp C_BRI_UP   &kp C_PLAY_PAUSE  &trans
+&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15    &kp LS(LG(N5))        &kp K_PASTE  &kp C_VOLUME_DOWN  &kp C_BRI_DEC  &kp CAPS          &trans
+                          &trans   &trans   &trans     &trans                &trans       &trans
+            >;
+
+            label = "util";
         };
     };
 };
