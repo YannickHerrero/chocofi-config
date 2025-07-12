@@ -40,6 +40,11 @@
             timeout-ms = <50>;
             layers = <0>;
         };
+
+        graphite {
+            bindings = <&tog 5>;
+            key-positions = <4 14 24>;
+        };
     };
 
     behaviors {
@@ -205,6 +210,17 @@
             >;
 
             label = "util";
+        };
+
+        graphite {
+            bindings = <
+&trans  &kp B  &kp L  &kp D      &kp W  &kp Z                              &quote   &kp F                 &kp O          &kp U       &kp J      &trans
+&trans  &kp N  &kp R  &kp T      &kp S  &kp G                              &kp Y    &kp H                 &kp A          &kp E       &kp I      &trans
+&trans  &kp Q  &kp X  &kp M      &kp C  &kp V                              &kp K    &kp P                 &kp COMMA      &kp PERIOD  &kp SLASH  &trans
+                      &kp GRAVE  &mo 1  &thumb_modifier LEFT_WIN RETURN    &kp SQT  &thumb_layer 2 SPACE  &kp SEMICOLON
+            >;
+
+            label = "graphite";
         };
     };
 };
