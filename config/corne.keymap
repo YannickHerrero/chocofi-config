@@ -164,10 +164,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCLAMATION   &kp GRAVE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &double_quote  &kp N7        &kp N8        &kp N9        &kp BACKSPACE  &trans
-&trans  &kp LESS_THAN     &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &quote         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH      &trans
-&trans  &kp GREATER_THAN  &kp CARET  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans    &kp N0         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp QUESTION   &trans
-                                     &trans                &trans                 &trans    &trans         &mo 3         &trans
+&trans  &kp EXCLAMATION   &kp GRAVE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSPACE    &double_quote  &kp N7        &kp N8        &kp N9        &kp LA(BACKSPACE)  &trans
+&trans  &kp LESS_THAN     &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE       &quote         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH          &trans
+&trans  &kp GREATER_THAN  &kp CARET  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans           &kp N0         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp QUESTION       &trans
+                                     &trans                &trans                 &trans           &trans         &mo 3         &trans
             >;
 
             label = "num";
@@ -214,10 +214,10 @@
 
         graphite {
             bindings = <
-&trans  &kp B  &kp L  &kp D      &kp W  &kp Z                              &quote   &kp F                 &kp O          &kp U       &kp J      &trans
-&trans  &kp N  &kp R  &kp T      &kp S  &kp G                              &kp Y    &kp H                 &kp A          &kp E       &kp I      &trans
-&trans  &kp Q  &kp X  &kp M      &kp C  &kp V                              &kp K    &kp P                 &kp COMMA      &kp PERIOD  &kp SLASH  &trans
-                      &kp GRAVE  &mo 1  &thumb_modifier LEFT_WIN RETURN    &kp SQT  &thumb_layer 2 SPACE  &kp SEMICOLON
+&trans  &kp B        &kp L            &kp D         &kp W         &kp Z                              &quote   &kp F                 &kp O          &kp U        &kp J        &trans
+&trans  &hml LWIN N  &hml LEFT_ALT R  &hml LCTRL T  &hml LSHFT S  &kp G                              &kp Y    &hmr LSHFT H          &hmr LCTRL A   &hmr LALT E  &hmr LWIN I  &trans
+&trans  &kp Q        &kp X            &kp M         &kp C         &kp V                              &kp K    &kp P                 &kp COMMA      &kp PERIOD   &kp SLASH    &trans
+                                      &kp GRAVE     &mo 1         &thumb_modifier LEFT_WIN RETURN    &kp SQT  &thumb_layer 2 SPACE  &kp SEMICOLON
             >;
 
             label = "graphite";
